@@ -52,3 +52,11 @@ console.log(userName);
 const Numbers = [5,6,2300,400,3000];
 numbers.sort((a,b)=> a-b);
 console.log(Numbers);
+
+//2300,400
+// a-b ----> 1900 
+//(greater than 0)positive --> b,a
+//400,2300
+
+//a-b --> negative --> a,b
+//ascending to a-b and for desc b-a
