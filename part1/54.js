@@ -35,3 +35,5 @@ const myArray = [1,2,4,4,5,6,5,6];
 const uniqueElement = new Set(myArray);
 console.log(uniqueElement.length);
 console.log(myArray);
+
+// you cannot find the length of a set as it has no index 
