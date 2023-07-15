@@ -30,3 +30,8 @@ console.log(letters);
 const Letters = new Set(["a","b","c"]);
 Letters.clear();
 console.log(Letters);
+
+const myArray = [1,2,4,4,5,6,5,6];
+const uniqueElement = new Set(myArray);
+console.log(uniqueElement.length);
+console.log(myArray);
