@@ -1,0 +1,3 @@
+// methods 
+//function inside object
+
