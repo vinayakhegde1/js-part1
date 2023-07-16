@@ -16,11 +16,14 @@
 //key->symbol
 
 
-const person = {
-    firstName : 'vinayak',
-    age: 20,
-    1:"one" 
-}
+// const person = {
+//     firstName : 'vinayak',
+//     age: 20,
+//     1:"one" 
+// }
 
-console.log(person.firstName);
-console.log(person["firstName"]);
+
+// console.log(person);
+
+const person = new Map();
+person.set('firstName', 'Vinayak');
