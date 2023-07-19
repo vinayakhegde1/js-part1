@@ -1,6 +1,7 @@
 //methods 
 //function inside object is called a method
-
+//this keyword refers to an object .which obj
+// depends on how this  is being invoked(used or called)
 
  function personInfo(){
         console.log(`person name is ${this.firstName} & ${this.age} is 20`);
@@ -24,3 +25,4 @@ const person3 = {
 person2.about();
 person1.about();
 person3.about();
+
