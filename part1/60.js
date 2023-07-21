@@ -25,7 +25,14 @@
 // hello.call();
 
 //example 2 
- const user1 = {
+   
+ function about(hobby, favMusic){
+        console.log(this.firstname, this.age, hobby, favMusic);
+    } 
+
+
+
+const user1 = {
     firstname: "meena",
     age: 50,
     about: function(hobby, favMusic){
@@ -37,6 +44,14 @@
         age: 60,
     }
 
+//call() :
+//apply() : apply method takes the argument in an array
+// bind :  
+ //call method : - user1.about.call(user1 , "kalimba", "Till i collapse ");
+// apply method : - user1.about.apply(user1 , ["kalimba", "Till i collapse "]);
 
- 
-user1.about.call(user1 , "kalimba", "Till i collapse ");
+//bind method
+// allows to create a new function from an existing 
+// function 
+// change new function this's context and provide any arguments you want 
+// the new function to be called 
