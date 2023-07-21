@@ -2,11 +2,18 @@
 const Name = {
     firstname: "Vinayak",
     lastname : "Hegde",
-    printFullName: function(){
+}
+
+Name.printFullName();
+
+let printFullName =  function(){
         console.log(this.firstname + " "+ this.lastname);
     }
 
-
+let name2 = {
+    firstname: "Sachin",
+    lastname: "Tendulkar",
 }
 
+//function borrowing 
 Name.printFullName();
